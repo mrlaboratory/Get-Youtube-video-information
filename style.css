@@ -1,0 +1,178 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	justify-content:center;
+	align-items:center;
+}
+
+body{
+	/* background:#323e4a; */
+	
+}
+
+.getdata{
+	width:fit-content;
+	height:auto;
+	display:flex;
+	background:gray;
+	justify-content:center;
+	align-items:center;
+	margin:0 auto;
+	border-radius:0 0 8px 8px;	
+}
+#youtubevideolink{
+	width:300px;
+	display:flex;
+	height:50px;
+	padding:10px;
+	font-weight:bold;
+	outline:none;
+	border-left:4px solid transparent;
+	border-right:0;
+	border-top:0;
+	border-bottom:0;
+	
+	
+}
+#youtubevideolink:focus{
+	border-left:4px solid red;
+	transition:2s;
+}
+
+
+.getdata button{
+	width:100px;
+	display:flex;
+	height:50px;
+	cursor:pointer;
+	font-weight:bold;
+	border:4px solid red;
+	
+}
+.framvideo{
+	background:red;
+	width:700px;
+	height:350px;
+	margin: 0 auto;
+	border-radius:10px;
+	padding:5px;		
+}
+.framvideo iframe{
+	width:100%;
+	height:100%;
+    overflow:hidden;	
+}
+.v-wrap{
+	width:100%;
+	height:400px;
+	
+	background-size:cover;
+	
+	
+}
+.v-wrap img{
+	width:220px;
+	height:120px;
+}
+.item-1{
+	background:green;
+	width:100%;
+	height:40px;
+	color:white;
+	padding:2px;
+	overflow:hidden;	
+	white-space:nowrep;
+    text-overflow:ellipsis;
+    
+    
+
+
+}
+.item-1 h1{
+	display:inline;	
+}
+.item-1 h1:first-child{
+	
+
+		
+}.item-1 h1:last-child{
+		animation: animh1 1s infinite;
+		overflow:hidden;	
+	    white-space:nowrep;
+        text-overflow:ellipsis;
+	   width:20px;
+		
+}
+@keyframes animh1{
+	0%{color:green;};
+	
+	100%{color:white;};	
+}
+.item-2 {
+	background:blue;
+	width:100%;
+	height:50px;
+	color:white;
+	padding:2px;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.item-2 p {
+	width:29%;
+	height:100%;
+    background:red;  
+	display:inline-block;
+	text-align:center;
+	font-size:30px;
+	
+	
+}.item-2 p:first-child {
+	margin:2px;	
+	
+	
+}
+.downloadVide{
+	width:100%;
+	height:40px;
+	background:gray;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	
+	
+}
+
+.buttonDownload{
+	text-decoration:none;
+	font-weight:bold;
+	padding:10px;
+	margin:5px;
+	border-radius:10px;
+	background:black;
+	color:white;
+	
+	
+}
+
+.dev-info{
+	width:100%;
+	height:auto;
+	background:gray;
+	color:white;
+	padding:10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
