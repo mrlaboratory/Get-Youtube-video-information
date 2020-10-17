@@ -6,11 +6,6 @@ Web : www.mrlaboratory.com
 Number : +8801854650673
 */
 function getytdatamr(){
-	
-	
-
-
-
 var geturl = document.querySelector("#youtubevideolink").value;
 var urlsplit= geturl.split(/^.*(youtu.be\/|v\/|embed\/|watch\?|youtube.com\/user\/[^#]*#([^\/]*?\/)*)\??v?=?([^#\&\?]*).*/);
 var videoIdmr = urlsplit[3];	
