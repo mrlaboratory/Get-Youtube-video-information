@@ -16,9 +16,7 @@ function getytdatamr(){
     url: videoData2,
     success: function(data2) {
     var vt = data2.items[0].snippet.title;
-    $(".mrVideoTitle").html(vt);
     var vs = data2.items[0].snippet.description;
-    $(".mrVideoDescription").html(vs);
     var vdate = data2.items[0].snippet.publishedAt;
 $('#output').val(schema(vt,vs,videoIdmr,vdate))
 
