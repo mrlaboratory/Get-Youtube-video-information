@@ -19,7 +19,7 @@ function getytdatamr(){
     var vs = data2.items[0].snippet.description;
     var vdate = data2.items[0].snippet.publishedAt;
 $('#output').val(schema(vt,vs,videoIdmr,vdate))
-
+$('#youtubevideotitle').val(vt)
 
     }
     });
